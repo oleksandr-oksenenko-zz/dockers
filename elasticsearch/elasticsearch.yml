@@ -1,0 +1,16 @@
+index :
+    number_of_shards: 1
+    number_of_replicas: 0
+    analysis :
+        analyzer :
+           default :
+                type : snowball
+                language : English
+  
+script.disable_dynamic: false
+  
+network.host: 127.0.0.1
+http.host: 127.0.0.1
+
+threadpool:
+    bulk:
