@@ -1,0 +1,9 @@
+storage:
+  journal:
+    enabled: false
+  wiredTiger:
+    collectionConfig:
+      blockCompressor: none
+    engineConfig:
+      cacheSizeGB: 1
+      journalCompressor: none

@@ -1,5 +1,5 @@
 FROM mongo:3.2
 
-ADD mongodb.conf /etc/mongodb.conf
+ADD mongodb.yml /etc/mongodb.yml
 
-CMD ["-f", "/etc/mongodb.conf"]
+CMD ["-f", "/etc/mongodb.yml"]
